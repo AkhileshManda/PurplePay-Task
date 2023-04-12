@@ -3,6 +3,8 @@ Task for purple pay. A react native application to transfer ERC20 Tokens from EO
 
 Token/Base contract : https://mumbai.polygonscan.com/address/0x057fc153A60370453362459Bcc67bE357451ACe4
 
+IN ORDER TO VIEW PUSH NOTIFICATION MAKE SURE TO ENABLE NOTIFICATION ACCESS MANUALLY BY GOING TO Settings -> Notification
+
 ## Features
 
 - Metamask authentication
