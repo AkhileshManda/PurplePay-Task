@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.17.11",
+    "@react-native-material/core": "^1.3.7",
     "@thirdweb-dev/react-native": "^0.2.0",
     "@thirdweb-dev/react-native-compat": "^0.2.0",
     "ethers": "^5.7.2",
@@ -21,6 +22,8 @@
     "react-native-crypto": "^2.2.0",
     "react-native-get-random-values": "^1.8.0",
     "react-native-mmkv": "2.5.1",
+    "react-native-permissions": "^3.8.0",
+    "react-native-push-notification": "^8.1.1",
     "react-native-randombytes": "^3.6.1",
     "react-native-svg": "^13.8.0"
   },

@@ -2612,6 +2612,14 @@
   resolved "https://registry.npmjs.org/@react-native-community/eslint-plugin/-/eslint-plugin-1.3.0.tgz"
   integrity sha512-+zDZ20NUnSWghj7Ku5aFphMzuM9JulqCW+aPXT6IfIXFbb8tzYTTOSeRFOtuekJ99ibW2fUCSsjuKNlwDIbHFg==
 
+"@react-native-material/core@^1.3.7":
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/@react-native-material/core/-/core-1.3.7.tgz#8233a3681b3ba046a400493daa0878aa3c0bf04a"
+  integrity sha512-N5d/zKrmL3+fVyWsc/jFRxsDl59N5t3tYx9RlxhV04tQlcFKo9UlyBqCWDZFlxrkLrq3JY5zTRCMJAM3yvOz5w==
+  dependencies:
+    chroma-js "^2.4.2"
+    react-native-flex-layout "^0.1.5"
+
 "@react-native/assets@1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@react-native/assets/-/assets-1.0.0.tgz"
@@ -4956,6 +4964,11 @@ chownr@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
+
+chroma-js@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/chroma-js/-/chroma-js-2.4.2.tgz#dffc214ed0c11fa8eefca2c36651d8e57cbfb2b0"
+  integrity sha512-U9eDw6+wt7V8z5NncY2jJfZa+hUH8XEj8FQHgFJTrUFnJfXYf4Ml4adI2vXZOjqRDpFWtYVWypDfZwnJ+HIR4A==
 
 ci-info@^2.0.0:
   version "2.0.0"
@@ -10275,6 +10288,13 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
+pkg-dir@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-5.0.0.tgz#a02d6aebe6ba133a928f74aec20bafdfe6b8e760"
+  integrity sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==
+  dependencies:
+    find-up "^5.0.0"
+
 pkg-up@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/pkg-up/-/pkg-up-3.1.0.tgz#100ec235cc150e4fd42519412596a28512a0def5"
@@ -10647,6 +10667,11 @@ react-native-crypto@^2.2.0:
     public-encrypt "^4.0.0"
     randomfill "^1.0.3"
 
+react-native-flex-layout@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/react-native-flex-layout/-/react-native-flex-layout-0.1.5.tgz#147379c9286a6d6999cd942dc9f4bdec75514ddd"
+  integrity sha512-DrLir5Wl0RhgJXHeDBSaa1Y1LdpNuoz0PEe5E1T1+xVWt2DAz/r+1N8bnhtVkTKJE6WrH6jIH2hoe8kogR0X+w==
+
 react-native-get-random-values@^1.8.0:
   version "1.8.0"
   resolved "https://registry.npmjs.org/react-native-get-random-values/-/react-native-get-random-values-1.8.0.tgz"
@@ -10676,6 +10701,19 @@ react-native-modal@^13.0.1:
   dependencies:
     prop-types "^15.6.2"
     react-native-animatable "1.3.3"
+
+react-native-permissions@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-3.8.0.tgz#7c1f75ae126c7d0b863eec9d2f5cd93ff8ad8310"
+  integrity sha512-BfZ7ksgdpGchHZH8M/kxCGZbWeACANbnPmb3hNjVOMDQusc4PWlPpobX3eBqYMSKbpi7bMECeV9BVU4QuwAf9A==
+  dependencies:
+    picocolors "^1.0.0"
+    pkg-dir "^5.0.0"
+
+react-native-push-notification@^8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-push-notification/-/react-native-push-notification-8.1.1.tgz#a41d20c70ea5a7709417e96261b225461f8dc73a"
+  integrity sha512-XpBtG/w+a6WXTxu6l1dNYyTiHnbgnvjoc3KxPTxYkaIABRmvuJZkFxqruyGvfCw7ELAlZEAJO+dthdTabCe1XA==
 
 react-native-randombytes@^3.6.1:
   version "3.6.1"
