@@ -15,6 +15,9 @@ IN ORDER TO VIEW PUSH NOTIFICATION MAKE SURE TO ENABLE NOTIFICATION ACCESS MANUA
 - Third Web: https://portal.thirdweb.com/react-native
 - Remix, Metamask for deploying simple contract on Polygon Mumbai
 
+## Try it yourself
+- Open an issue along with your wallet address and some PurplePayTokens will be transfered to your account, then you can go ahead and have transactions on the app
+- APK Link : https://drive.google.com/file/d/1YbsevMtzgDcimoodiz7l-YiCd6JlfcM-/view?usp=sharing
 
 ## Screenshots
 <table>
