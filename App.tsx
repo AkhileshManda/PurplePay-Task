@@ -18,8 +18,9 @@ import {
   Button,
 } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-import { AppBar, Snackbar } from '@react-native-material/core';
+import { AppBar } from '@react-native-material/core';
 import PushNotification from 'react-native-push-notification';
+import Snackbar from 'react-native-snackbar';
 
 const App = () => {
   const createChannel = () => {
@@ -487,15 +488,11 @@ const AppInner = () => {
                       .catch(error => {
                         //TODO: Display using react-native snack bar
                         console.log(error);
-                        <Snackbar
-                          message="An error occured in completing the transaction"
-                          style={{
-                            position: 'absolute',
-                            start: 16,
-                            end: 16,
-                            bottom: 16,
-                          }}
-                        />;
+                        console.log('IN ERROR');
+                        Snackbar.show({
+                          text: 'Error please check metamask for more details',
+                          duration: Snackbar.LENGTH_LONG,
+                        });
                       })
                       .finally(() => {
                         // setCompletingTransaction(false);
@@ -503,15 +500,12 @@ const AppInner = () => {
                       });
                   })
                   .catch(error => {
-                    <Snackbar
-                      message="An error occured in approving the transaction"
-                      style={{
-                        position: 'absolute',
-                        start: 16,
-                        end: 16,
-                        bottom: 16,
-                      }}
-                    />;
+                    console.log('In ERROR');
+                    console.log(error);
+                    Snackbar.show({
+                      text: 'Invalid address or insufficient balance please check and fill accordingly',
+                      duration: Snackbar.LENGTH_LONG,
+                    });
                   })
                   .finally(() => {
                     // setApprovingTransaction(false);
@@ -519,17 +513,7 @@ const AppInner = () => {
               }}
               onSuccess={result => console.log('Success!')}
               //TODO: Display using react-native snack bar
-              onError={error => (
-                <Snackbar
-                  message="Something went wrong try again"
-                  style={{
-                    position: 'absolute',
-                    start: 16,
-                    end: 16,
-                    bottom: 16,
-                  }}
-                />
-              )}>
+              onError={error => console.log(error)}>
               Transfer funds to other account
             </Web3Button>
           </View>
